@@ -13,12 +13,17 @@ for elemento in miLista:
 
 print("La primera del item 2 sin duplicados es:", resultaList)
 
-"""Ordenando nuestra lista de mayor a menor"""
-
+"""Ordenando nuestra lista de menor a mayor"""
 resultaList.sort()
 
-for numero in resultaList:
-    print(numero, " ", end="")
+for numero1 in resultaList:
+    print(numero1, " ", end="")
+
+"""Ordenando nuestra lista de mayor a menor"""
+resultaList.sort(reverse=True)
+
+for numero2 in resultaList:
+    print(numero2, " ", end="")
 
 
 
